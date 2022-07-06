@@ -106,7 +106,7 @@ async def generate_token(form_data: OAuth2PasswordRequestForm = Depends()):
 
 register_tortoise(
     app, 
-    db_url='postgres://postgres:Password1@127.0.0.1:5432/postgres',
+    db_url='postgres://axwpxgepqrujyq:d4812b77395d362db8b369f4b35eea84e3edfd6c942ba2374d7412d6e77f9f6e@ec2-52-48-159-67.eu-west-1.compute.amazonaws.com:5432/dd5vv07j6eia2q',
     modules={'models': ['main']},
     generate_schemas=True,
     add_exception_handlers=True
